@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/home.css">
     <title>Desktop | Home</title>
 </head>
 <body>
 
-    <div class="fullscreen-prompt">
+    <!-- <div class="fullscreen-prompt">
         <h1>browser will open in fullscreen</h1>
         <button type="button">OK</button>
-    </div>
+    </div> -->
     
     <header class="top-bar" id="top-bar">
         <div class="container">
-
+            <i class="fa-solid fa-battery-three-quarters"></i>
+            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-solid fa-gear"></i>
         </div>
     </header>
 
@@ -25,12 +29,12 @@
     </footer>
 
     <script>
-        const btn = document.querySelector(".fullscreen-prompt button");
-        btn.addEventListener('click', full);
-        function full(e) {
-            btn.requestFullscreen();
-            btn.parentElement.style.display = 'none';
-        }
+        // const btn = document.querySelector(".fullscreen-prompt button");
+        // btn.addEventListener('click', full);
+        // function full(e) {
+        //     btn.requestFullscreen();
+        //     btn.parentElement.style.display = 'none';
+        // }
     </script>
 </body>
 </html>
