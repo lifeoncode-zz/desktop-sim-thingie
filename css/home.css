@@ -5,6 +5,11 @@
           box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
 body.light-mode {
   background-color: #e9eaec;
   color: #2b2b35;
