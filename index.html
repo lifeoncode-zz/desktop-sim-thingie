@@ -11,10 +11,10 @@
 </head>
 <body>
 
-    <!-- <div class="fullscreen-prompt">
+    <div class="fullscreen-prompt">
         <h1>browser will open in fullscreen</h1>
         <button type="button">OK</button>
-    </div> -->
+    </div>
     
     <header class="top-bar" id="top-bar">
         <div class="container">
@@ -29,12 +29,12 @@
     </footer>
 
     <script>
-        // const btn = document.querySelector(".fullscreen-prompt button");
-        // btn.addEventListener('click', full);
-        // function full(e) {
-        //     btn.requestFullscreen();
-        //     btn.parentElement.style.display = 'none';
-        // }
+        const btn = document.querySelector(".fullscreen-prompt button");
+        btn.addEventListener('click', full);
+        function full(e) {
+            btn.requestFullscreen();
+            btn.parentElement.style.display = 'none';
+        }
     </script>
 </body>
 </html>
